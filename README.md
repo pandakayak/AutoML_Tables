@@ -1,7 +1,7 @@
 # AutoML_Tables
 POC of GCP AutoML Tables
 
-## Objuective
+## Objective
 The AutoML Tables in Google Cloud AI Platform is an intuitive and ease-to-use supervised learning service, to build and deploy state of the art machine learning model with structured (tabular) data.
 
 The objective of this repo is to validate the capabilities of AutoML Tables for all business users.
