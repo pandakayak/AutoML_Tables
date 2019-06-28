@@ -119,7 +119,7 @@ update_dataset_response
   ```
 
 ### session 3:  Managing and training AutoML Tables model
-1. created a model training in AutoML Tables, and set training budget no longer than 5 hours
+created a model training in AutoML Tables, and set training budget no longer than 5 hours
 ```css
 model_display_name = 'demo3_model' # give model a random name
 
