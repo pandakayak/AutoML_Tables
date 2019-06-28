@@ -204,6 +204,7 @@ this is the result originally in BigQuery:
 [{'tables': {'prediction_interval': {'end': 23.365476608276367,'start': 5.482821464538574},'value': 9.624988555908203}}]
 ```
 the 'value' is the prediction that we are looking for
+
 2. compared the prediction with the actual fare price, with the metrics such as MSE, MAE, MAPE, R_sqaured
 3. plot the predictions and actual values in a graph to compare visually
 ![alt text](https://github.com/pandakayak/AutoML_Tables/blob/master/plot1.PNG)
