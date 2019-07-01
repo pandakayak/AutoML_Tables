@@ -15,10 +15,11 @@ Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 1M rows were extracted from BigQuery(upload from local) using SQL. After proper feature engineering, finally got a training dataset(58321 rows) and a test dataset(100 rows).
 
 ### Training & Test Datasets
-After data preparation, we used 7 features to predict the fare price (in dollars). 
+After data preparation, we used 8 features to predict the fare price (in dollars). 
 
 Predictor Features:
 
+* hour (hour of the day)
 * pickup_latitude
 * pickup_longitude
 * dropoff_latitude
@@ -29,14 +30,14 @@ Predictor Features:
 
 
 #### Training Data
-The training dataset imported from Google BigQuery consists of 58321 rows by 8 columns (7 predictors + 1 target).
+The training dataset imported from Google BigQuery consists of 58321 rows by 9 columns (8 predictors + 1 target).
 Per AutoML Tables beginner’s guide, by default, the training data we imported to AutoML Tables will be split into 80% training, 10% validation, and 10% test sets, and  we can manually edit those values if necessary. 
 (Source: https://cloud.google.com/automl-tables/docs/beginners-guide)
 
 
 #### Test Data
 
-100 rows by 8 columns, and some rows contain null(for evaluation purpose). 
+100 rows by 9 columns, and some rows contain null(for evaluation purpose). 
  
 ## The Model
 The .ipynb file contains 7 sessions
